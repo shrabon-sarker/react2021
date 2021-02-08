@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Classes from './timer.module.css'
+
 export class Timer extends Component {
     
     state = {
@@ -51,14 +53,14 @@ export class Timer extends Component {
             <div>
                 <h2>Simle Timer</h2>
                 <div>
-                    <button onClick={this.puls}>+</button>
+                    <button className={Classes.btn} onClick={this.puls}>+</button>
                     <span>{this.state.count}</span>
-                    <button onClick={this.sub}>-</button>
+                    <button className={Classes.btn} onClick={this.sub}>-</button>
                 </div>
                 <div>
-                    <button onClick={this.startTimer}>start</button>
-                    <button onClick={this.stopTimer}>stop</button>
-                    <button onClick={this.resetTimer}>reset</button>
+                    <button className={Classes.timer__count} onClick={this.startTimer}>start</button>
+                    <button className={Classes.timer__count} onClick={this.stopTimer}>stop</button>
+                    <button className={Classes.timer__count} onClick={this.resetTimer}>reset</button>
                 </div>
             </div>
         )
