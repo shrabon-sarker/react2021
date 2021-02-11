@@ -1,0 +1,26 @@
+.container {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.btn__event {
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background: rgb(32, 65, 11);
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.btn__event:hover {
+    background:rgb(33, 155, 149);
+    color: #000;
+}
+
+
+.input__feild {
+    padding: 10px;
+    margin-top: 20px;
+}

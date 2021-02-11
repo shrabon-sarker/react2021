@@ -1,11 +1,12 @@
 
 //imput components
-import Com from './components/index'
+import Handling from './components/handlers/Handle'
+//import Com from './components/index'
 
 function App() {
   return (
     <div className="App">
-      <Com />
+      <Handling />
     </div>
   );
 }
